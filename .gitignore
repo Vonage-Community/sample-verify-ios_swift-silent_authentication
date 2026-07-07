@@ -1,0 +1,21 @@
+# Secrets — never commit these
+.env
+*.key
+private.key
+ios/Config.local.xcconfig
+
+# Node
+node_modules/
+npm-debug.log*
+
+# iOS / Xcode
+.build/
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store

@@ -1,0 +1,7 @@
+// Committed defaults — safe to check in.
+// Override in Config.local.xcconfig (gitignored) with your ngrok URL.
+//
+// Note: xcconfig treats // as a comment delimiter, so URLs must use the
+// _SLASH trick below to embed a literal //.
+_SLASH = /
+BASE_URL = http:$(_SLASH)/localhost:4000

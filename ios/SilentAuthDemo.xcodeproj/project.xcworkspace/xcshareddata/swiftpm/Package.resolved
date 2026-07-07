@@ -1,0 +1,15 @@
+{
+  "originHash" : "4a36c6954f249dbd374b0ffc9eb42cf3afc03df12ac196dc005ea02af13628b3",
+  "pins" : [
+    {
+      "identity" : "vonage-ios-client-library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Vonage/vonage-ios-client-library.git",
+      "state" : {
+        "revision" : "2b212d4b9c9b00799bdc38cc776484e0184fa5bd",
+        "version" : "1.0.5"
+      }
+    }
+  ],
+  "version" : 3
+}
