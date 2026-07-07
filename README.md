@@ -149,8 +149,6 @@ Use Vonage's **Network Registry Playground** with test numbers starting with `+9
 - `+99012345671` — Silent Auth fails, SMS code required
 - `+99012345699` — Silent Auth fails hard, SMS required
 
-> **Note:** The old `sandbox: true` API parameter is retired — do not use it.
-
 ---
 
 ## How It Works
