@@ -7,325 +7,307 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD0224FC31E8E11B272D896 /* CellularRequestClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BAC1DC0AE727C9E66F1A53 /* CellularRequestClientProtocol.swift */; };
-		0D58068773C43719EEDAA64E /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C533EB30BAB7F38267E29 /* LogEvent.swift */; };
-		0E1AD581CBEDA521413674AD /* VerificationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD7D167C5B4E67CBFD1836 /* VerificationServiceProtocol.swift */; };
-		0E61E39471E36528A81F569B /* LogStageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0073D0314FBBD5E1BDDF4BF /* LogStageTests.swift */; };
-		101D78E1EB9389058A5503A3 /* VerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20895CD6D3E443DC357A2E7 /* VerificationService.swift */; };
-		185F141F75FB71D057B60475 /* CellularAuthClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3337B39D04C923280B85EE5D /* CellularAuthClientTests.swift */; };
-		18CAF094BE739436DA15B4D6 /* CellularAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4ACBDBA17F0701DF4D7F4F /* CellularAuthError.swift */; };
-		1C9A52107761D3E028E60ACA /* VerificationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B955421BEE1CDE6140B52D /* VerificationStateTests.swift */; };
-		2D471F56A02B8049B03ED6DE /* SilentAuthDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74875915842D7E1EC615291 /* SilentAuthDemoApp.swift */; };
-		3777FBB53B6FD2DEBA8BA425 /* LogStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF209B2D90338D151F1F3BE /* LogStage.swift */; };
-		3ADCE8BBDE651DE462BEFF21 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA4E35EC182CC5988A0D00 /* Configuration.swift */; };
-		40310E4DCE1B478231B53F5E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA7C72A83650797525F6EA /* LoginView.swift */; };
-		41A4905C44ED819676719A49 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448EC376B90FFA3189656FF /* AnyCodable.swift */; };
-		440796C117D30AFD9DB054CE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD801143F03F7EF5C287BA /* LoginViewModel.swift */; };
-		51A322072FA36F7C16252124 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B30BFD5EC8FBEC3BE5F45F /* APIError.swift */; };
-		57FDC88FB9AB915B9A1F868D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69DB3934E0F2FD3BCDA0CC0 /* Foundation.framework */; };
-		62A5309253814971C7B6ED38 /* CellularAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E825AD02E27F7535D25B5EF6 /* CellularAuthClient.swift */; };
-		7CA4D70D848400AE405A2D1F /* VerificationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE9819BB80CB171D529F0B /* VerificationState.swift */; };
-		95B3F38F5AA69AD86C28FD65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB522EAC7C6031F2B660D851 /* ContentView.swift */; };
-		96ED779AC22459524690A6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69DB3934E0F2FD3BCDA0CC0 /* Foundation.framework */; };
-		97FAF09229CEEE8CE88216E7 /* VonageClientLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E4E2F34F2B6A2CD54154D3F3 /* VonageClientLibrary */; };
-		A2D07CDE2829DA0E705ED393 /* LogEventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4891A82FD1922F77C3B27 /* LogEventRow.swift */; };
-		AFE148FC63879B3168CEFB02 /* VonageClientLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 7AC31BD4B75CAB5D54789BD0 /* VonageClientLibrary */; };
-		B66D8B7D87737E39EB837476 /* SmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D41C7146DB6C0CE08DA787 /* SmokeTests.swift */; };
-		C1D9D12BC79FC84A78E95813 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C30E14336FA1A1F0B5D7FD6 /* APIClient.swift */; };
-		CA7204ABB6C997E2B493B5A6 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59761E84963050212012014 /* LoginViewModelTests.swift */; };
-		D5A4945A3D9CDCA630BA15DA /* VonageBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB299FBD433FF668D250E2F9 /* VonageBrand.swift */; };
-		DF9D3155C405DE58B84C9320 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D480952E504A828AB0CC6CA1 /* APIClientTests.swift */; };
-		E77909218329F9784286248D /* LogRedactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C313B78688DF9897DFECAC /* LogRedactionTests.swift */; };
-		E9108883CF60748B9352C818 /* DevConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52D13A7F99E9C8D828A5A3 /* DevConsoleView.swift */; };
-		F7BC4D7BD3F698B98CB9A624 /* VerifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB34B3EAE9169B86A87B8D /* VerifiedView.swift */; };
+		0579EB744E38C7BDA56CD972 /* CellularRequestClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AD2F4A8D2D72C1F5A7E13D /* CellularRequestClientProtocol.swift */; };
+		115D239C14C2637965AD925C /* VonageBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E166C8D44A2161CB4E95F6 /* VonageBrand.swift */; };
+		11D21EDFC29B86B1EA299F5D /* VonageClientLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 469E5C6CFB3C559F7B930C97 /* VonageClientLibrary */; };
+		187A091B273261EA4B439ACD /* VonageClientLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DE7F3C29D867611F2663BEBC /* VonageClientLibrary */; };
+		18AF1E96FB24AEB6C683EC13 /* CellularAuthClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6B8B072A0102C1C9AA26E6 /* CellularAuthClientTests.swift */; };
+		28363B811A469464BF21F11E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85C4E0CBC948F71DE968152 /* Foundation.framework */; };
+		45758CB796730D282F82D26D /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3ABC0C8B68E009B386C1F0 /* LoginViewModelTests.swift */; };
+		590ED07CA54CA9AEA28C9167 /* DevConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B92FA78C1470F7CF184503 /* DevConsoleView.swift */; };
+		61C53F2D4CC1FEE9E044369E /* LogStageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9BB4261F89939F107E72F5 /* LogStageTests.swift */; };
+		69CB77E4E4A290CBAA933098 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA108144376ABA631589D379 /* AnyCodable.swift */; };
+		6F6C6220BAD79AF8888D66B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85C4E0CBC948F71DE968152 /* Foundation.framework */; };
+		76D5494F32038DD9752B239F /* SilentAuthDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085696F116EA294AA3F1ADEA /* SilentAuthDemoApp.swift */; };
+		7BCA632FFCC77BF6DF5F1EFE /* VerificationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C51508B02CC263E69F815 /* VerificationState.swift */; };
+		9A0C8FC48256E8396028E526 /* LogStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999C00D44417357CCDF3D62 /* LogStage.swift */; };
+		9BA6D7B340E515F90481DE09 /* VerifiedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9C42369D7D849E9C0680E /* VerifiedView.swift */; };
+		B9898979C3999100FD323396 /* VerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE817F03F8037C9513203855 /* VerificationService.swift */; };
+		BAA9D22A6EC07B519C618043 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F930A0029FFB699F2094315F /* LoginViewModel.swift */; };
+		C9341D35F7360A1C05504094 /* LogEventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF55E1C93135D78FDB1BAF59 /* LogEventRow.swift */; };
+		C9E8D30C11C3C9FEFBA61DA7 /* CellularAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F5C314A436746089DA127 /* CellularAuthError.swift */; };
+		CE85210CF140B46BB5ED618D /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA88F06DEC27F2F13FB288F5 /* APIError.swift */; };
+		D9C44342FFCE30C40FC9124D /* LogRedactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923C7ECAF4292F5B319425D /* LogRedactionTests.swift */; };
+		E670B6BDC21539A680C7E446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417DFC5F54AADBB8D1F23FF /* ContentView.swift */; };
+		E8384E45C544292031BA0A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4ABB3C321B9BB348C75ED6 /* Assets.xcassets */; };
+		EAAB30AC531B1BF467C456E0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24E831A6423673AC8E99AC /* LoginView.swift */; };
+		EB494B966DA5E2495604AF37 /* SmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF411AB6EE52FB36BDA2F8 /* SmokeTests.swift */; };
+		EC3B4F182D37B853BD70559D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2284346FB1AD3073BC372FD4 /* Configuration.swift */; };
+		EF15A6C5895207D4BA445CDC /* VerificationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF1AF204C3C9D7A701F2E9 /* VerificationStateTests.swift */; };
+		EFE9F6636203080F47CC9B54 /* CellularAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF88A1274DDDFEA56442C37 /* CellularAuthClient.swift */; };
+		F9DA85BAD2FBE58872BFA18C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED63D1EDC67E4868EEBCE03F /* APIClient.swift */; };
+		FA8DDD99415902D8CFF7FDC9 /* VerificationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1831F4E146EB9BA1F81FAE1 /* VerificationServiceProtocol.swift */; };
+		FBFA78FD8983517D33443EB8 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333A8BD9CA0B0A16CEB05200 /* LogEvent.swift */; };
+		FD6402C1DDA1D428F1ECE49D /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA20B7F24DE4DEDE2931DE /* APIClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E7EF7CEACB7E43C918F8CD62 /* PBXContainerItemProxy */ = {
+		4B26D94C790A6241D73122F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B4DD9036DA59F44F858ECE37 /* Project object */;
+			containerPortal = B6BD853E1065A513D73C53B1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5EFEFD49771AEB7E691ED429;
+			remoteGlobalIDString = 0EDE44DB9CC6BA6C20504CBE;
 			remoteInfo = SilentAuthDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08BAC1DC0AE727C9E66F1A53 /* CellularRequestClientProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularRequestClientProtocol.swift; sourceTree = "<group>"; };
-		0AAD801143F03F7EF5C287BA /* LoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		0C30E14336FA1A1F0B5D7FD6 /* APIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		2F4ACBDBA17F0701DF4D7F4F /* CellularAuthError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularAuthError.swift; sourceTree = "<group>"; };
-		3337B39D04C923280B85EE5D /* CellularAuthClientTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularAuthClientTests.swift; sourceTree = "<group>"; };
-		4904CDD1DB1EDE7B55C1255C /* SilentAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CBA4E35EC182CC5988A0D00 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		86B955421BEE1CDE6140B52D /* VerificationStateTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationStateTests.swift; sourceTree = "<group>"; };
-		88C313B78688DF9897DFECAC /* LogRedactionTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogRedactionTests.swift; sourceTree = "<group>"; };
-		98E4891A82FD1922F77C3B27 /* LogEventRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogEventRow.swift; sourceTree = "<group>"; };
-		A74875915842D7E1EC615291 /* SilentAuthDemoApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SilentAuthDemoApp.swift; sourceTree = "<group>"; };
-		A7AD7D167C5B4E67CBFD1836 /* VerificationServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationServiceProtocol.swift; sourceTree = "<group>"; };
-		AB522EAC7C6031F2B660D851 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B59761E84963050212012014 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
-		B7DA7C72A83650797525F6EA /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		C83749B99D76CF16B916239D /* Config.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		C89C533EB30BAB7F38267E29 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
-		D0073D0314FBBD5E1BDDF4BF /* LogStageTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogStageTests.swift; sourceTree = "<group>"; };
-		D0D41C7146DB6C0CE08DA787 /* SmokeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SmokeTests.swift; sourceTree = "<group>"; };
-		D2B30BFD5EC8FBEC3BE5F45F /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		D33D009C8D34E8C78BE9EE61 /* SilentAuthDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilentAuthDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D480952E504A828AB0CC6CA1 /* APIClientTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
-		D69DB3934E0F2FD3BCDA0CC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DB299FBD433FF668D250E2F9 /* VonageBrand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VonageBrand.swift; sourceTree = "<group>"; };
-		DD52D13A7F99E9C8D828A5A3 /* DevConsoleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevConsoleView.swift; sourceTree = "<group>"; };
-		DEFE9819BB80CB171D529F0B /* VerificationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationState.swift; sourceTree = "<group>"; };
-		DFF209B2D90338D151F1F3BE /* LogStage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogStage.swift; sourceTree = "<group>"; };
-		E1EB34B3EAE9169B86A87B8D /* VerifiedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerifiedView.swift; sourceTree = "<group>"; };
-		E20895CD6D3E443DC357A2E7 /* VerificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationService.swift; sourceTree = "<group>"; };
-		E825AD02E27F7535D25B5EF6 /* CellularAuthClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularAuthClient.swift; sourceTree = "<group>"; };
-		EFF7F80161FE711839D68022 /* Config.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
-		F448EC376B90FFA3189656FF /* AnyCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
+		085696F116EA294AA3F1ADEA /* SilentAuthDemoApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SilentAuthDemoApp.swift; sourceTree = "<group>"; };
+		0F3ABC0C8B68E009B386C1F0 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		1B4ABB3C321B9BB348C75ED6 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2284346FB1AD3073BC372FD4 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		333A8BD9CA0B0A16CEB05200 /* LogEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
+		359F5C314A436746089DA127 /* CellularAuthError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularAuthError.swift; sourceTree = "<group>"; };
+		37B92FA78C1470F7CF184503 /* DevConsoleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DevConsoleView.swift; sourceTree = "<group>"; };
+		3999C00D44417357CCDF3D62 /* LogStage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogStage.swift; sourceTree = "<group>"; };
+		3AAA20B7F24DE4DEDE2931DE /* APIClientTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		5A9D5766DEDC245CB50ED4DF /* Config.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		632C51508B02CC263E69F815 /* VerificationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationState.swift; sourceTree = "<group>"; };
+		6A24E831A6423673AC8E99AC /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7B6B8B072A0102C1C9AA26E6 /* CellularAuthClientTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularAuthClientTests.swift; sourceTree = "<group>"; };
+		7E9BB4261F89939F107E72F5 /* LogStageTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogStageTests.swift; sourceTree = "<group>"; };
+		8417DFC5F54AADBB8D1F23FF /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89C47BC41AADF41F7861C600 /* SilentAuthDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilentAuthDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF88A1274DDDFEA56442C37 /* CellularAuthClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularAuthClient.swift; sourceTree = "<group>"; };
+		98AD2F4A8D2D72C1F5A7E13D /* CellularRequestClientProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CellularRequestClientProtocol.swift; sourceTree = "<group>"; };
+		A4C9C42369D7D849E9C0680E /* VerifiedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerifiedView.swift; sourceTree = "<group>"; };
+		B6072BFE3A6C188A3118DF84 /* SilentAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA88F06DEC27F2F13FB288F5 /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		CFB16EBF9283F5499E7B9A70 /* Config.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		D0EF1AF204C3C9D7A701F2E9 /* VerificationStateTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationStateTests.swift; sourceTree = "<group>"; };
+		D85C4E0CBC948F71DE968152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA108144376ABA631589D379 /* AnyCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
+		DF55E1C93135D78FDB1BAF59 /* LogEventRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogEventRow.swift; sourceTree = "<group>"; };
+		E7DF411AB6EE52FB36BDA2F8 /* SmokeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SmokeTests.swift; sourceTree = "<group>"; };
+		ED63D1EDC67E4868EEBCE03F /* APIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		EE817F03F8037C9513203855 /* VerificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationService.swift; sourceTree = "<group>"; };
+		F1831F4E146EB9BA1F81FAE1 /* VerificationServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerificationServiceProtocol.swift; sourceTree = "<group>"; };
+		F4E166C8D44A2161CB4E95F6 /* VonageBrand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VonageBrand.swift; sourceTree = "<group>"; };
+		F923C7ECAF4292F5B319425D /* LogRedactionTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogRedactionTests.swift; sourceTree = "<group>"; };
+		F930A0029FFB699F2094315F /* LoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		948618DD80DC12A9D58AEAA2 /* Frameworks */ = {
+		1816792C67EBE272F45B0296 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96ED779AC22459524690A6F4 /* Foundation.framework in Frameworks */,
-				AFE148FC63879B3168CEFB02 /* VonageClientLibrary in Frameworks */,
+				28363B811A469464BF21F11E /* Foundation.framework in Frameworks */,
+				11D21EDFC29B86B1EA299F5D /* VonageClientLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC6DDAD4F0C50FD4FDF947F1 /* Frameworks */ = {
+		B4917039FD8A3F0F72A6A1CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57FDC88FB9AB915B9A1F868D /* Foundation.framework in Frameworks */,
-				97FAF09229CEEE8CE88216E7 /* VonageClientLibrary in Frameworks */,
+				6F6C6220BAD79AF8888D66B7 /* Foundation.framework in Frameworks */,
+				187A091B273261EA4B439ACD /* VonageClientLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D1A580E4D211C6DB8ADF8C3 /* App */ = {
+		1D3162AB62B6E05F6B2A0439 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				A74875915842D7E1EC615291 /* SilentAuthDemoApp.swift */,
-				AB522EAC7C6031F2B660D851 /* ContentView.swift */,
-			);
-			name = App;
-			path = App;
-			sourceTree = "<group>";
-		};
-		3159CD677126594C6FFED650 = {
-			isa = PBXGroup;
-			children = (
-				F5A8C5634D81E96FA5B8B24E /* Products */,
-				A941014F418E40E99A505968 /* Frameworks */,
-				C83749B99D76CF16B916239D /* Config.xcconfig */,
-				EFF7F80161FE711839D68022 /* Config.xcconfig */,
-				702FB55DEDE6B857DD013ABD /* SilentAuthDemo */,
-				B2104EB33E9CD9C3B4EF9C0F /* SilentAuthDemoTests */,
-			);
-			sourceTree = "<group>";
-		};
-		480442DAC4BC2D265B86C0E6 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				0AAD801143F03F7EF5C287BA /* LoginViewModel.swift */,
-				B7DA7C72A83650797525F6EA /* LoginView.swift */,
-			);
-			name = Login;
-			path = Login;
-			sourceTree = "<group>";
-		};
-		55D1208E54972BB3C28FD5EB /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D69DB3934E0F2FD3BCDA0CC0 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5FB09D23CEEACC4016A02C42 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		6C8F42369FF7BA88E9DE4EF3 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				86B955421BEE1CDE6140B52D /* VerificationStateTests.swift */,
-				B59761E84963050212012014 /* LoginViewModelTests.swift */,
-				88C313B78688DF9897DFECAC /* LogRedactionTests.swift */,
-				D0073D0314FBBD5E1BDDF4BF /* LogStageTests.swift */,
-			);
-			name = Login;
-			path = Login;
-			sourceTree = "<group>";
-		};
-		702FB55DEDE6B857DD013ABD /* SilentAuthDemo */ = {
-			isa = PBXGroup;
-			children = (
-				0D1A580E4D211C6DB8ADF8C3 /* App */,
-				5FB09D23CEEACC4016A02C42 /* Resources */,
-				B7A2562230B3B35E23847837 /* Networking */,
-				BAFEAEE36F05FB035CA952F3 /* Models */,
-				8A54028E64CBE80980C2656B /* Theme */,
-				FC06DF53E569A21BEB8F6726 /* Features */,
-			);
-			name = SilentAuthDemo;
-			path = SilentAuthDemo;
-			sourceTree = "<group>";
-		};
-		7748E27062E56EF5CCA923F7 /* DevMode */ = {
-			isa = PBXGroup;
-			children = (
-				DD52D13A7F99E9C8D828A5A3 /* DevConsoleView.swift */,
-				98E4891A82FD1922F77C3B27 /* LogEventRow.swift */,
-			);
-			name = DevMode;
-			path = DevMode;
-			sourceTree = "<group>";
-		};
-		7B22F38FBEE7C38682CCF4B1 /* Verified */ = {
-			isa = PBXGroup;
-			children = (
-				E1EB34B3EAE9169B86A87B8D /* VerifiedView.swift */,
-			);
-			name = Verified;
-			path = Verified;
-			sourceTree = "<group>";
-		};
-		8A54028E64CBE80980C2656B /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				DB299FBD433FF668D250E2F9 /* VonageBrand.swift */,
+				F4E166C8D44A2161CB4E95F6 /* VonageBrand.swift */,
 			);
 			name = Theme;
 			path = Theme;
 			sourceTree = "<group>";
 		};
-		9D1E746B434FEDD09257E030 /* Networking */ = {
+		3A01D094E9EBF5898B81925B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D480952E504A828AB0CC6CA1 /* APIClientTests.swift */,
-				3337B39D04C923280B85EE5D /* CellularAuthClientTests.swift */,
-			);
-			name = Networking;
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		A941014F418E40E99A505968 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				55D1208E54972BB3C28FD5EB /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B2104EB33E9CD9C3B4EF9C0F /* SilentAuthDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				D0D41C7146DB6C0CE08DA787 /* SmokeTests.swift */,
-				9D1E746B434FEDD09257E030 /* Networking */,
-				C4FA3433F37B9DECDC26BA36 /* Features */,
-			);
-			name = SilentAuthDemoTests;
-			path = SilentAuthDemoTests;
-			sourceTree = "<group>";
-		};
-		B7A2562230B3B35E23847837 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				0C30E14336FA1A1F0B5D7FD6 /* APIClient.swift */,
-				E825AD02E27F7535D25B5EF6 /* CellularAuthClient.swift */,
-				D2B30BFD5EC8FBEC3BE5F45F /* APIError.swift */,
-				2F4ACBDBA17F0701DF4D7F4F /* CellularAuthError.swift */,
-				4CBA4E35EC182CC5988A0D00 /* Configuration.swift */,
-				08BAC1DC0AE727C9E66F1A53 /* CellularRequestClientProtocol.swift */,
-				E20895CD6D3E443DC357A2E7 /* VerificationService.swift */,
-				A7AD7D167C5B4E67CBFD1836 /* VerificationServiceProtocol.swift */,
-			);
-			name = Networking;
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		BAFEAEE36F05FB035CA952F3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				C89C533EB30BAB7F38267E29 /* LogEvent.swift */,
-				DFF209B2D90338D151F1F3BE /* LogStage.swift */,
-				F448EC376B90FFA3189656FF /* AnyCodable.swift */,
-				DEFE9819BB80CB171D529F0B /* VerificationState.swift */,
+				333A8BD9CA0B0A16CEB05200 /* LogEvent.swift */,
+				3999C00D44417357CCDF3D62 /* LogStage.swift */,
+				DA108144376ABA631589D379 /* AnyCodable.swift */,
+				632C51508B02CC263E69F815 /* VerificationState.swift */,
 			);
 			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
-		C4FA3433F37B9DECDC26BA36 /* Features */ = {
+		3C0F312AF4E3FEB8BAAF41C3 /* DevMode */ = {
 			isa = PBXGroup;
 			children = (
-				6C8F42369FF7BA88E9DE4EF3 /* Login */,
+				37B92FA78C1470F7CF184503 /* DevConsoleView.swift */,
+				DF55E1C93135D78FDB1BAF59 /* LogEventRow.swift */,
 			);
-			name = Features;
-			path = Features;
+			name = DevMode;
+			path = DevMode;
 			sourceTree = "<group>";
 		};
-		F5A8C5634D81E96FA5B8B24E /* Products */ = {
+		510B44B61695939ABC9EEC8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4904CDD1DB1EDE7B55C1255C /* SilentAuthDemo.app */,
-				D33D009C8D34E8C78BE9EE61 /* SilentAuthDemoTests.xctest */,
+				B6072BFE3A6C188A3118DF84 /* SilentAuthDemo.app */,
+				89C47BC41AADF41F7861C600 /* SilentAuthDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC06DF53E569A21BEB8F6726 /* Features */ = {
+		5475ABD950295464941210CD /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				480442DAC4BC2D265B86C0E6 /* Login */,
-				7B22F38FBEE7C38682CCF4B1 /* Verified */,
-				7748E27062E56EF5CCA923F7 /* DevMode */,
+				A6354091765CF0D45F1EC575 /* Login */,
+				8DEC3D9569771F96CA66AB44 /* Verified */,
+				3C0F312AF4E3FEB8BAAF41C3 /* DevMode */,
 			);
 			name = Features;
 			path = Features;
+			sourceTree = "<group>";
+		};
+		5D6897CE05477F4AA7EBA6DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B4ABB3C321B9BB348C75ED6 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		81C2EA1FD36E4CCCF93EE5EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98D5CB628D6E64CB7E587E8C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89FDAFD26714281A43AA1C3A = {
+			isa = PBXGroup;
+			children = (
+				510B44B61695939ABC9EEC8E /* Products */,
+				81C2EA1FD36E4CCCF93EE5EA /* Frameworks */,
+				5A9D5766DEDC245CB50ED4DF /* Config.xcconfig */,
+				CFB16EBF9283F5499E7B9A70 /* Config.xcconfig */,
+				A0F1A183978DEEA1EF357DC0 /* SilentAuthDemo */,
+				C544543C132319FAB960A555 /* SilentAuthDemoTests */,
+			);
+			sourceTree = "<group>";
+		};
+		8DEC3D9569771F96CA66AB44 /* Verified */ = {
+			isa = PBXGroup;
+			children = (
+				A4C9C42369D7D849E9C0680E /* VerifiedView.swift */,
+			);
+			name = Verified;
+			path = Verified;
+			sourceTree = "<group>";
+		};
+		98D5CB628D6E64CB7E587E8C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D85C4E0CBC948F71DE968152 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9AD8E5BFB1C988893FCBC30D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DD9C6B8E6E0EDC96DF39B39C /* Login */,
+			);
+			name = Features;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A0F1A183978DEEA1EF357DC0 /* SilentAuthDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3D144F543C8D510A3048A60 /* App */,
+				5D6897CE05477F4AA7EBA6DF /* Resources */,
+				D66CE77AD371AD29A3A81B35 /* Networking */,
+				3A01D094E9EBF5898B81925B /* Models */,
+				1D3162AB62B6E05F6B2A0439 /* Theme */,
+				5475ABD950295464941210CD /* Features */,
+			);
+			name = SilentAuthDemo;
+			path = SilentAuthDemo;
+			sourceTree = "<group>";
+		};
+		A6354091765CF0D45F1EC575 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F930A0029FFB699F2094315F /* LoginViewModel.swift */,
+				6A24E831A6423673AC8E99AC /* LoginView.swift */,
+			);
+			name = Login;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C544543C132319FAB960A555 /* SilentAuthDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7DF411AB6EE52FB36BDA2F8 /* SmokeTests.swift */,
+				F99FD92E22B0DDEAD1CF1BB6 /* Networking */,
+				9AD8E5BFB1C988893FCBC30D /* Features */,
+			);
+			name = SilentAuthDemoTests;
+			path = SilentAuthDemoTests;
+			sourceTree = "<group>";
+		};
+		D3D144F543C8D510A3048A60 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				085696F116EA294AA3F1ADEA /* SilentAuthDemoApp.swift */,
+				8417DFC5F54AADBB8D1F23FF /* ContentView.swift */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		D66CE77AD371AD29A3A81B35 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				ED63D1EDC67E4868EEBCE03F /* APIClient.swift */,
+				8CF88A1274DDDFEA56442C37 /* CellularAuthClient.swift */,
+				CA88F06DEC27F2F13FB288F5 /* APIError.swift */,
+				359F5C314A436746089DA127 /* CellularAuthError.swift */,
+				2284346FB1AD3073BC372FD4 /* Configuration.swift */,
+				98AD2F4A8D2D72C1F5A7E13D /* CellularRequestClientProtocol.swift */,
+				EE817F03F8037C9513203855 /* VerificationService.swift */,
+				F1831F4E146EB9BA1F81FAE1 /* VerificationServiceProtocol.swift */,
+			);
+			name = Networking;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DD9C6B8E6E0EDC96DF39B39C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D0EF1AF204C3C9D7A701F2E9 /* VerificationStateTests.swift */,
+				0F3ABC0C8B68E009B386C1F0 /* LoginViewModelTests.swift */,
+				F923C7ECAF4292F5B319425D /* LogRedactionTests.swift */,
+				7E9BB4261F89939F107E72F5 /* LogStageTests.swift */,
+			);
+			name = Login;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F99FD92E22B0DDEAD1CF1BB6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA20B7F24DE4DEDE2931DE /* APIClientTests.swift */,
+				7B6B8B072A0102C1C9AA26E6 /* CellularAuthClientTests.swift */,
+			);
+			name = Networking;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FCB196C030F7E84EADF28CD /* SilentAuthDemoTests */ = {
+		0EDE44DB9CC6BA6C20504CBE /* SilentAuthDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 620171DF742CA96C5746DD59 /* Build configuration list for PBXNativeTarget "SilentAuthDemoTests" */;
+			buildConfigurationList = 7C67275E8DB89E4A4F57A1F7 /* Build configuration list for PBXNativeTarget "SilentAuthDemo" */;
 			buildPhases = (
-				6E7D14704F29421117523EF6 /* Sources */,
-				DC6DDAD4F0C50FD4FDF947F1 /* Frameworks */,
-				6BF66607792833C669D7679D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				945EF7AF169B8701E5451858 /* PBXTargetDependency */,
-			);
-			name = SilentAuthDemoTests;
-			packageProductDependencies = (
-				E4E2F34F2B6A2CD54154D3F3 /* VonageClientLibrary */,
-			);
-			productName = SilentAuthDemoTests;
-			productReference = D33D009C8D34E8C78BE9EE61 /* SilentAuthDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5EFEFD49771AEB7E691ED429 /* SilentAuthDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4249DC4D3018569EE2B723FD /* Build configuration list for PBXNativeTarget "SilentAuthDemo" */;
-			buildPhases = (
-				704BA62D615D050B367804B3 /* Sources */,
-				948618DD80DC12A9D58AEAA2 /* Frameworks */,
-				23D1D4A87B3F2840ADF688C9 /* Resources */,
+				C74C1268A1424581C4514017 /* Sources */,
+				1816792C67EBE272F45B0296 /* Frameworks */,
+				B8D5A42F3D8893C111023ECE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -333,22 +315,43 @@
 			);
 			name = SilentAuthDemo;
 			packageProductDependencies = (
-				7AC31BD4B75CAB5D54789BD0 /* VonageClientLibrary */,
+				469E5C6CFB3C559F7B930C97 /* VonageClientLibrary */,
 			);
 			productName = SilentAuthDemo;
-			productReference = 4904CDD1DB1EDE7B55C1255C /* SilentAuthDemo.app */;
+			productReference = B6072BFE3A6C188A3118DF84 /* SilentAuthDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		246289311B5A336BBCB9D97E /* SilentAuthDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D4A04362778C030A9A9E2F /* Build configuration list for PBXNativeTarget "SilentAuthDemoTests" */;
+			buildPhases = (
+				E57E2C9318091EDC6EA35B73 /* Sources */,
+				B4917039FD8A3F0F72A6A1CA /* Frameworks */,
+				38465204D1609CFBF1032921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E046A594D328DB9980D26831 /* PBXTargetDependency */,
+			);
+			name = SilentAuthDemoTests;
+			packageProductDependencies = (
+				DE7F3C29D867611F2663BEBC /* VonageClientLibrary */,
+			);
+			productName = SilentAuthDemoTests;
+			productReference = 89C47BC41AADF41F7861C600 /* SilentAuthDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4DD9036DA59F44F858ECE37 /* Project object */ = {
+		B6BD853E1065A513D73C53B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = A5634D6847FF05BD7E99ED2B /* Build configuration list for PBXProject "SilentAuthDemo" */;
+			buildConfigurationList = F771C63B84E8372C7366812B /* Build configuration list for PBXProject "SilentAuthDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -356,94 +359,95 @@
 				en,
 				Base,
 			);
-			mainGroup = 3159CD677126594C6FFED650;
+			mainGroup = 89FDAFD26714281A43AA1C3A;
 			minimizedProjectReferenceProxies = 0;
 			packageReferences = (
-				735AF530ED8012BE352698C5 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */,
+				243975CAAE9D2A87CF75FC43 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F5A8C5634D81E96FA5B8B24E /* Products */;
+			productRefGroup = 510B44B61695939ABC9EEC8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EFEFD49771AEB7E691ED429 /* SilentAuthDemo */,
-				2FCB196C030F7E84EADF28CD /* SilentAuthDemoTests */,
+				0EDE44DB9CC6BA6C20504CBE /* SilentAuthDemo */,
+				246289311B5A336BBCB9D97E /* SilentAuthDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23D1D4A87B3F2840ADF688C9 /* Resources */ = {
+		38465204D1609CFBF1032921 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BF66607792833C669D7679D /* Resources */ = {
+		B8D5A42F3D8893C111023ECE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8384E45C544292031BA0A84 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E7D14704F29421117523EF6 /* Sources */ = {
+		C74C1268A1424581C4514017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66D8B7D87737E39EB837476 /* SmokeTests.swift in Sources */,
-				DF9D3155C405DE58B84C9320 /* APIClientTests.swift in Sources */,
-				185F141F75FB71D057B60475 /* CellularAuthClientTests.swift in Sources */,
-				1C9A52107761D3E028E60ACA /* VerificationStateTests.swift in Sources */,
-				CA7204ABB6C997E2B493B5A6 /* LoginViewModelTests.swift in Sources */,
-				E77909218329F9784286248D /* LogRedactionTests.swift in Sources */,
-				0E61E39471E36528A81F569B /* LogStageTests.swift in Sources */,
+				76D5494F32038DD9752B239F /* SilentAuthDemoApp.swift in Sources */,
+				E670B6BDC21539A680C7E446 /* ContentView.swift in Sources */,
+				F9DA85BAD2FBE58872BFA18C /* APIClient.swift in Sources */,
+				EFE9F6636203080F47CC9B54 /* CellularAuthClient.swift in Sources */,
+				CE85210CF140B46BB5ED618D /* APIError.swift in Sources */,
+				C9E8D30C11C3C9FEFBA61DA7 /* CellularAuthError.swift in Sources */,
+				EC3B4F182D37B853BD70559D /* Configuration.swift in Sources */,
+				0579EB744E38C7BDA56CD972 /* CellularRequestClientProtocol.swift in Sources */,
+				B9898979C3999100FD323396 /* VerificationService.swift in Sources */,
+				FA8DDD99415902D8CFF7FDC9 /* VerificationServiceProtocol.swift in Sources */,
+				FBFA78FD8983517D33443EB8 /* LogEvent.swift in Sources */,
+				9A0C8FC48256E8396028E526 /* LogStage.swift in Sources */,
+				69CB77E4E4A290CBAA933098 /* AnyCodable.swift in Sources */,
+				7BCA632FFCC77BF6DF5F1EFE /* VerificationState.swift in Sources */,
+				115D239C14C2637965AD925C /* VonageBrand.swift in Sources */,
+				BAA9D22A6EC07B519C618043 /* LoginViewModel.swift in Sources */,
+				EAAB30AC531B1BF467C456E0 /* LoginView.swift in Sources */,
+				9BA6D7B340E515F90481DE09 /* VerifiedView.swift in Sources */,
+				590ED07CA54CA9AEA28C9167 /* DevConsoleView.swift in Sources */,
+				C9341D35F7360A1C05504094 /* LogEventRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		704BA62D615D050B367804B3 /* Sources */ = {
+		E57E2C9318091EDC6EA35B73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D471F56A02B8049B03ED6DE /* SilentAuthDemoApp.swift in Sources */,
-				95B3F38F5AA69AD86C28FD65 /* ContentView.swift in Sources */,
-				C1D9D12BC79FC84A78E95813 /* APIClient.swift in Sources */,
-				62A5309253814971C7B6ED38 /* CellularAuthClient.swift in Sources */,
-				51A322072FA36F7C16252124 /* APIError.swift in Sources */,
-				18CAF094BE739436DA15B4D6 /* CellularAuthError.swift in Sources */,
-				3ADCE8BBDE651DE462BEFF21 /* Configuration.swift in Sources */,
-				0BD0224FC31E8E11B272D896 /* CellularRequestClientProtocol.swift in Sources */,
-				101D78E1EB9389058A5503A3 /* VerificationService.swift in Sources */,
-				0E1AD581CBEDA521413674AD /* VerificationServiceProtocol.swift in Sources */,
-				0D58068773C43719EEDAA64E /* LogEvent.swift in Sources */,
-				3777FBB53B6FD2DEBA8BA425 /* LogStage.swift in Sources */,
-				41A4905C44ED819676719A49 /* AnyCodable.swift in Sources */,
-				7CA4D70D848400AE405A2D1F /* VerificationState.swift in Sources */,
-				D5A4945A3D9CDCA630BA15DA /* VonageBrand.swift in Sources */,
-				440796C117D30AFD9DB054CE /* LoginViewModel.swift in Sources */,
-				40310E4DCE1B478231B53F5E /* LoginView.swift in Sources */,
-				F7BC4D7BD3F698B98CB9A624 /* VerifiedView.swift in Sources */,
-				E9108883CF60748B9352C818 /* DevConsoleView.swift in Sources */,
-				A2D07CDE2829DA0E705ED393 /* LogEventRow.swift in Sources */,
+				EB494B966DA5E2495604AF37 /* SmokeTests.swift in Sources */,
+				FD6402C1DDA1D428F1ECE49D /* APIClientTests.swift in Sources */,
+				18AF1E96FB24AEB6C683EC13 /* CellularAuthClientTests.swift in Sources */,
+				EF15A6C5895207D4BA445CDC /* VerificationStateTests.swift in Sources */,
+				45758CB796730D282F82D26D /* LoginViewModelTests.swift in Sources */,
+				D9C44342FFCE30C40FC9124D /* LogRedactionTests.swift in Sources */,
+				61C53F2D4CC1FEE9E044369E /* LogStageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		945EF7AF169B8701E5451858 /* PBXTargetDependency */ = {
+		E046A594D328DB9980D26831 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SilentAuthDemo;
-			target = 5EFEFD49771AEB7E691ED429 /* SilentAuthDemo */;
-			targetProxy = E7EF7CEACB7E43C918F8CD62 /* PBXContainerItemProxy */;
+			target = 0EDE44DB9CC6BA6C20504CBE /* SilentAuthDemo */;
+			targetProxy = 4B26D94C790A6241D73122F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5C0766609700B57F99C32AE1 /* Release */ = {
+		2A905C70AA4E1D2046DAD351 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -459,7 +463,104 @@
 			};
 			name = Release;
 		};
-		5C1B6C07841D50F540A98E8F /* Debug */ = {
+		681A0278751ABE953BE709F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9D5766DEDC245CB50ED4DF /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_XCCONFIG = "$(PROJECT_DIR)/Config.xcconfig";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SilentAuthDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vonage.SilentAuthDemo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82939FF8EEC3B60947B2F816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB16EBF9283F5499E7B9A70 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_XCCONFIG = "$(PROJECT_DIR)/Config.xcconfig";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SilentAuthDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vonage.SilentAuthDemo;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B8F7003A132688868B52EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C5D88ECD4537332B9682A1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -520,104 +621,7 @@
 			};
 			name = Debug;
 		};
-		8C9251ED9284F1830BFFC81F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C83749B99D76CF16B916239D /* Config.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BASE_XCCONFIG = "$(PROJECT_DIR)/Config.xcconfig";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SilentAuthDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vonage.SilentAuthDemo;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8D047161BE0D4D599174A5A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFF7F80161FE711839D68022 /* Config.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BASE_XCCONFIG = "$(PROJECT_DIR)/Config.xcconfig";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SilentAuthDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vonage.SilentAuthDemo;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D908017E92EFAC7DD3ADD2D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		F274A97A56ABFE363E4283A6 /* Debug */ = {
+		FBA8A13FC3BCE9D61EBFB684 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,29 +639,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4249DC4D3018569EE2B723FD /* Build configuration list for PBXNativeTarget "SilentAuthDemo" */ = {
+		37D4A04362778C030A9A9E2F /* Build configuration list for PBXNativeTarget "SilentAuthDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C9251ED9284F1830BFFC81F /* Release */,
-				8D047161BE0D4D599174A5A3 /* Debug */,
+				2A905C70AA4E1D2046DAD351 /* Release */,
+				FBA8A13FC3BCE9D61EBFB684 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		620171DF742CA96C5746DD59 /* Build configuration list for PBXNativeTarget "SilentAuthDemoTests" */ = {
+		7C67275E8DB89E4A4F57A1F7 /* Build configuration list for PBXNativeTarget "SilentAuthDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C0766609700B57F99C32AE1 /* Release */,
-				F274A97A56ABFE363E4283A6 /* Debug */,
+				681A0278751ABE953BE709F8 /* Release */,
+				82939FF8EEC3B60947B2F816 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5634D6847FF05BD7E99ED2B /* Build configuration list for PBXProject "SilentAuthDemo" */ = {
+		F771C63B84E8372C7366812B /* Build configuration list for PBXProject "SilentAuthDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C1B6C07841D50F540A98E8F /* Debug */,
-				D908017E92EFAC7DD3ADD2D6 /* Release */,
+				C5D88ECD4537332B9682A1CA /* Debug */,
+				9B8F7003A132688868B52EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -665,7 +669,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		735AF530ED8012BE352698C5 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */ = {
+		243975CAAE9D2A87CF75FC43 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Vonage/vonage-ios-client-library.git";
 			requirement = {
@@ -676,17 +680,17 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7AC31BD4B75CAB5D54789BD0 /* VonageClientLibrary */ = {
+		469E5C6CFB3C559F7B930C97 /* VonageClientLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 735AF530ED8012BE352698C5 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */;
+			package = 243975CAAE9D2A87CF75FC43 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */;
 			productName = VonageClientLibrary;
 		};
-		E4E2F34F2B6A2CD54154D3F3 /* VonageClientLibrary */ = {
+		DE7F3C29D867611F2663BEBC /* VonageClientLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 735AF530ED8012BE352698C5 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */;
+			package = 243975CAAE9D2A87CF75FC43 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */;
 			productName = VonageClientLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = B4DD9036DA59F44F858ECE37 /* Project object */;
+	rootObject = B6BD853E1065A513D73C53B1 /* Project object */;
 }

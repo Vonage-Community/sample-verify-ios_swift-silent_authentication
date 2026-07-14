@@ -95,6 +95,10 @@ end
   app_target.add_file_references([ref])
 end
 
+# Add the asset catalog to the app target's resources build phase
+assets_ref = resources_group.new_file('Assets.xcassets')
+app_target.resources_build_phase.add_file_reference(assets_ref)
+
 # Add Login feature files (path is relative to group, not absolute)
 ['LoginViewModel.swift', 'LoginView.swift'].each do |f|
   ref = login_group.new_file(f)

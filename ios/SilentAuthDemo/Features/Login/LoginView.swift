@@ -60,6 +60,16 @@ struct LoginView: View {
 
     private var phoneEntryView: some View {
         VStack(spacing: 12) {
+            // Official "Part of Ericsson" lock-up, rendered as a template so it
+            // tints with the brand plum and stays legible in dark mode.
+            Image("VonageLogo")
+                .resizable()
+                .scaledToFit()
+                .frame(height: 42)
+                .foregroundColor(VonageBrand.plum)
+                .padding(.bottom, 8)
+                .accessibilityLabel("Vonage, part of Ericsson")
+
             Text("Sign in with your phone")
                 .font(.title3)
                 .fontWeight(.medium)
