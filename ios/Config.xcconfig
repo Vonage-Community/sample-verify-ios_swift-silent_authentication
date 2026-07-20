@@ -5,3 +5,7 @@
 // _SLASH trick below to embed a literal //.
 _SLASH = /
 BASE_URL = http:$(_SLASH)/localhost:4000
+
+// Optional local overrides — must come last so its assignments win.
+// The ? makes the include a no-op when the file doesn't exist.
+#include? "Config.local.xcconfig"
