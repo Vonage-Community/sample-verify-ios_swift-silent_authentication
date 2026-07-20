@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -114,7 +114,6 @@
 			children = (
 				F4E166C8D44A2161CB4E95F6 /* VonageBrand.swift */,
 			);
-			name = Theme;
 			path = Theme;
 			sourceTree = "<group>";
 		};
@@ -126,7 +125,6 @@
 				DA108144376ABA631589D379 /* AnyCodable.swift */,
 				632C51508B02CC263E69F815 /* VerificationState.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -136,7 +134,6 @@
 				37B92FA78C1470F7CF184503 /* DevConsoleView.swift */,
 				DF55E1C93135D78FDB1BAF59 /* LogEventRow.swift */,
 			);
-			name = DevMode;
 			path = DevMode;
 			sourceTree = "<group>";
 		};
@@ -156,7 +153,6 @@
 				8DEC3D9569771F96CA66AB44 /* Verified */,
 				3C0F312AF4E3FEB8BAAF41C3 /* DevMode */,
 			);
-			name = Features;
 			path = Features;
 			sourceTree = "<group>";
 		};
@@ -165,7 +161,6 @@
 			children = (
 				1B4ABB3C321B9BB348C75ED6 /* Assets.xcassets */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -194,7 +189,6 @@
 			children = (
 				A4C9C42369D7D849E9C0680E /* VerifiedView.swift */,
 			);
-			name = Verified;
 			path = Verified;
 			sourceTree = "<group>";
 		};
@@ -211,7 +205,6 @@
 			children = (
 				DD9C6B8E6E0EDC96DF39B39C /* Login */,
 			);
-			name = Features;
 			path = Features;
 			sourceTree = "<group>";
 		};
@@ -225,7 +218,6 @@
 				1D3162AB62B6E05F6B2A0439 /* Theme */,
 				5475ABD950295464941210CD /* Features */,
 			);
-			name = SilentAuthDemo;
 			path = SilentAuthDemo;
 			sourceTree = "<group>";
 		};
@@ -235,7 +227,6 @@
 				F930A0029FFB699F2094315F /* LoginViewModel.swift */,
 				6A24E831A6423673AC8E99AC /* LoginView.swift */,
 			);
-			name = Login;
 			path = Login;
 			sourceTree = "<group>";
 		};
@@ -246,7 +237,6 @@
 				F99FD92E22B0DDEAD1CF1BB6 /* Networking */,
 				9AD8E5BFB1C988893FCBC30D /* Features */,
 			);
-			name = SilentAuthDemoTests;
 			path = SilentAuthDemoTests;
 			sourceTree = "<group>";
 		};
@@ -256,7 +246,6 @@
 				085696F116EA294AA3F1ADEA /* SilentAuthDemoApp.swift */,
 				8417DFC5F54AADBB8D1F23FF /* ContentView.swift */,
 			);
-			name = App;
 			path = App;
 			sourceTree = "<group>";
 		};
@@ -272,7 +261,6 @@
 				EE817F03F8037C9513203855 /* VerificationService.swift */,
 				F1831F4E146EB9BA1F81FAE1 /* VerificationServiceProtocol.swift */,
 			);
-			name = Networking;
 			path = Networking;
 			sourceTree = "<group>";
 		};
@@ -284,7 +272,6 @@
 				F923C7ECAF4292F5B319425D /* LogRedactionTests.swift */,
 				7E9BB4261F89939F107E72F5 /* LogStageTests.swift */,
 			);
-			name = Login;
 			path = Login;
 			sourceTree = "<group>";
 		};
@@ -294,7 +281,6 @@
 				3AAA20B7F24DE4DEDE2931DE /* APIClientTests.swift */,
 				7B6B8B072A0102C1C9AA26E6 /* CellularAuthClientTests.swift */,
 			);
-			name = Networking;
 			path = Networking;
 			sourceTree = "<group>";
 		};
@@ -360,11 +346,9 @@
 				Base,
 			);
 			mainGroup = 89FDAFD26714281A43AA1C3A;
-			minimizedProjectReferenceProxies = 0;
 			packageReferences = (
 				243975CAAE9D2A87CF75FC43 /* XCRemoteSwiftPackageReference "vonage-ios-client-library" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 510B44B61695939ABC9EEC8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -472,10 +456,13 @@
 				BASE_XCCONFIG = "$(PROJECT_DIR)/Config.xcconfig";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7F2B5ZSP8Q;
 				INFOPLIST_FILE = SilentAuthDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vonage.SilentAuthDemo;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -494,10 +481,13 @@
 				BASE_XCCONFIG = "$(PROJECT_DIR)/Config.xcconfig";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7F2B5ZSP8Q;
 				INFOPLIST_FILE = SilentAuthDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vonage.SilentAuthDemo;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
