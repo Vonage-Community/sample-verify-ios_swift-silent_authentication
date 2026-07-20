@@ -224,6 +224,7 @@ The app polls the backend for new logs every 1.5 seconds. This polling approach 
 
 ## Notes
 
+- **The Xcode project is generated, but already committed.** `ios/SilentAuthDemo.xcodeproj` is produced by `scripts/create_xcodeproj.rb` (using the [`xcodeproj`](https://rubygems.org/gems/xcodeproj) Ruby gem) so project-structure changes are reviewable as script diffs instead of opaque pbxproj edits. The generated project is checked in — **you don't need to run the script to build the app**. Only run it (`gem install xcodeproj && ruby scripts/create_xcodeproj.rb`) if you're adding/removing source files or changing project settings, then commit the regenerated `.xcodeproj` alongside the script change.
 - **Phone numbers in the workflow:** Refer to test numbers (e.g. `+990` playground) during development. For production, use real E.164 numbers.
 - **Vonage application credentials:** Store them in `.env` (never committed). Use `private.key` for JWT signing (also never committed).
 - **ngrok URL changes:** If ngrok restarts with a new URL, update both your `.env` (`NGROK_URL`) and the Vonage Dashboard callback URL.
